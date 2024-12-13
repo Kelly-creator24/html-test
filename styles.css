@@ -1,0 +1,81 @@
+img{
+    height: 200px; width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    left: 140px;
+    top: 10px;
+    bottom: 10px;
+    padding: 20px;
+    border: 1px;
+
+}
+
+h1 {
+
+   text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    background-color: #bdc3d9
+}
+
+.Personal-data{
+    text-align: center;
+}
+
+ul{
+    list-style-position: outside;
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.education {
+    text-align: center;
+}
+
+.skills {
+    text-align: center;
+}
+.work-history {
+    text-align: center;
+}
+
+.container {
+    max-width: 550px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.header {
+    max-width: 550px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+       body {
+        font-size: 16px;
+       }
+}
+
+
+
+@media (min-width: 1200px) {
+    body {
+     font-size: 18px;
+    }
+}
+
+
